@@ -20,10 +20,10 @@ const SignUp = () => {
 
                         <h2 className="text-xl text-justify font-">Create Account</h2>
                         <form className="text-white-600 mb-4 ">
-                            <input type="text" id="name" placeholder="Full name" className="rounded-md my-2 border-2 border-grey w-5/6 p-2"></input><br/>
-                            <input type="text" id="email" placeholder="Email" className="rounded-md my-2 border-2 border-grey w-5/6 p-2"></input><br/>
-                            <input type="text" id="password" placeholder="Password" className="rounded-md my-2 border-2 border-grey w-5/6 p-2"></input><br/>
-                            <input type="text" id="password" placeholder="Confirm Password"className="rounded-md my-2 border-2 border-grey w-5/6 p-2"></input>
+                            <input type="text" id="name" placeholder="Full name" className="rounded-md my-2 border-2 border-grey w-full p-2"></input><br/>
+                            <input type="text" id="email" placeholder="Email" className="rounded-md my-2 border-2 border-grey w-full p-2"></input><br/>
+                            <input type="password" id="password" placeholder="Password" className="rounded-md my-2 border-2 border-grey w-full p-2"></input><br/>
+                            <input type="password" id="password" placeholder="Confirm Password"className="rounded-md my-2 border-2 border-grey w-full p-2"></input>
                         </form>
                         <button onClick={togglePopup} className="px-4 py-2 bg-[#d74a94] text-white rounded-md shadow-lg hover:bg-pink-400"> Sign up
                         </button>

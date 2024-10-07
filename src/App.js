@@ -10,7 +10,7 @@ function App() {
       <div className=''>
         <NavBar />
         <HeroSection/>
-        <Campaigns/>
+        {/* <Campaigns/> */}
         <Link to="/donate">Donate</Link>
       </div>
       <Routes>
