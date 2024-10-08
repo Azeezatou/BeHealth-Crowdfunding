@@ -10,7 +10,12 @@ const Navbar = ( ) => {
         <nav className="p-10 w-screen">
             <div className="flex justify-between flex-row">
                 {/* <img alt=""></img> */}
-                <h1 className="">BeHealth</h1>
+                <img
+                  className="h-10 w-10"
+                  src="/images/logo.svg"
+                    alt="logo"
+
+                  />
                 <div className="flex ">
                     <ul className="flex flex-row space-x-5">
                         <li>Home</li>
