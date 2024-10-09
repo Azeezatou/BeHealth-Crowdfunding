@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import SignUp from "./SignUp";
+import DonateButton from "./DonateButton";
 
 const Navbar = ( ) => {
     const [isOpen, setIsOpen] = useState(false); 
@@ -25,7 +26,7 @@ const Navbar = ( ) => {
                     </ul>
                 </div>
                 <div className="flex w-14, justify-end">
-                    <button className="bg-[#d74a94] h-10 rounded-md w-28 text-white text-xs mx-3">Donate</button>
+                    <DonateButton className="!bg-[#d74a94] !h-10 !rounded-md !w-28 !text-white !text-xs !mx-3"/>
                     <SignUp isOpen={isOpen} togglePopup={togglePopup} />
                 </div>
             </div>

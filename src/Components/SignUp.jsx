@@ -7,7 +7,7 @@ const SignUp = () => {
     };
     return (
         <div>
-            <button onClick={togglePopup} className="bg-[#d74a94] h-10 rounded-md w-28 text-white text-xs mx-3">
+            <button onClick={togglePopup} className="bg-[#807e7f] h-10 rounded-md w-28 text-white text-xs mx-3">
                 {isOpen ? 'Close' : 'Sign up'}
             </button>
 
